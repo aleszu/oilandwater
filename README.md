@@ -1,8 +1,7 @@
-# Oil and Water data analysis for Undark
+# Reporting on the Dakota Access Pipeline protests of 2016.
+## An analysis and visualization of federal data on crude oil spills  
 
 The following workshop walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using Excel and Carto.com. 
-
-## The Dakota Access Pipeline protest of 2016
 
 ### Questions I had that guided my reporting
 
@@ -22,19 +21,21 @@ The following workshop walks you through a data analysis and visualization I car
 
 ### And where in the U.S. do these spills occur?
 
-## How I put it together
+# How I put it together
 
-I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA).
+### I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA).
 
 ![alt text](http://aleszu.com/workshops/oilwater5.png)
 
-I downloaded a zip file.
+### I downloaded a zip file.
 
 ![alt text](http://aleszu.com/workshops/oilwater6.png)
 
-The government was nice enough to tell me what every column corresponded to.
+### The government was nice enough to tell me what every column corresponded to.
 
 ![alt text](http://aleszu.com/workshops/oilwater7.png)
+
+### All I really had to do in Excel was filter, sort and count. 
 
 ![alt text](http://aleszu.com/workshops/oilwater8.png)
 
