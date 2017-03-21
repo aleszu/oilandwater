@@ -1,24 +1,26 @@
 # Oil and Water data analysis for Undark
 
+The following workshop walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using Excel and Carto.com. 
+
 ## The Dakota Access Pipeline protest of 2016
+
+### Questions I had that guided my reporting
 
 ![alt text](http://aleszu.com/workshops/oilwater1.png)
 
+### What are these protestors angry about?
+
 ![alt text](http://aleszu.com/workshops/oilwater2.png)
+
+### Could DAPL rupture? If so, what was the risk?
 
 ![alt text](http://aleszu.com/workshops/oilwater4.png)
 
-## Questions I had that guided my reporting
+### How often do spills occur?
 
-What are these protestors angry about?
+### When they rupture, how much oil spills?
 
-Could DAPL rupture? If so, what was the risk?
-
-How often do spills occur?
-
-When they rupture, how much oil spills?
-
-And where in the U.S. do these spills occur?
+### And where in the U.S. do these spills occur?
 
 ## How I put it together
 
