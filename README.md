@@ -28,7 +28,11 @@ I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-dat
 
 ![alt text](http://aleszu.com/workshops/oilwater5.png)
 
+I downloaded a zip file.
+
 ![alt text](http://aleszu.com/workshops/oilwater6.png)
+
+The government was nice enough to tell me what every column corresponded to.
 
 ![alt text](http://aleszu.com/workshops/oilwater7.png)
 
