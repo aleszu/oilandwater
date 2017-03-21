@@ -2,14 +2,14 @@
 
 ## The Dakota Access Pipeline protest of 2016
 
-![alt text](https://drive.google.com/file/d/0B56vzj8m6JIncDVPQ2R6VUh2NDQ/view?usp=sharing)
-[source](https://drive.google.com/file/d/0B56vzj8m6JIncDVPQ2R6VUh2NDQ/view?usp=sharing)
+![alt text](aleszu.com/workshops/oilwater1.png)
+[source](aleszu.com/workshops/oilwater1.png)
 
-![alt text](https://drive.google.com/file/d/0B56vzj8m6JIndHE5MGhqeUdja0U/view?usp=sharing
-[source](https://drive.google.com/file/d/0B56vzj8m6JIndHE5MGhqeUdja0U/view?usp=sharing)
+![alt text](aleszu.com/workshops/oilwater2.png)
+[source](aleszu.com/workshops/oilwater2.png)
 
-![alt text](https://drive.google.com/file/d/0B56vzj8m6JInbEp0aGtfVVVnNVk/view?usp=sharing)
-[source](https://drive.google.com/file/d/0B56vzj8m6JInbEp0aGtfVVVnNVk/view?usp=sharing)
+![alt text](aleszu.com/workshops/oilwater4.png)
+[source](aleszu.com/workshops/oilwater4.png)
 
 ## Questions I had that guided my reporting
 
@@ -27,17 +27,17 @@ And where in the U.S. do these spills occur?
 
 I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA).
 
-![alt text](https://drive.google.com/file/d/0B56vzj8m6JInNGExLV9ncmFvWmc/view?usp=sharing)
-[source](https://drive.google.com/file/d/0B56vzj8m6JInNGExLV9ncmFvWmc/view?usp=sharing)
+![alt text](aleszu.com/workshops/oilwater5.png)
+[source](aleszu.com/workshops/oilwater5.png)
 
-![alt text](https://drive.google.com/file/d/0B56vzj8m6JInRDg3ai1MOVpOMWc/view?usp=sharing)
-[source](https://drive.google.com/file/d/0B56vzj8m6JInRDg3ai1MOVpOMWc/view?usp=sharing)
+![alt text](aleszu.com/workshops/oilwater6.png)
+[source](aleszu.com/workshops/oilwater6.png)
 
-![alt text](https://drive.google.com/file/d/0B56vzj8m6JInNllXVHNQTWx3bGs/view?usp=sharing)
-[source](https://drive.google.com/file/d/0B56vzj8m6JInNllXVHNQTWx3bGs/view?usp=sharing)
+![alt text](aleszu.com/workshops/oilwater7.png)
+[source](aleszu.com/workshops/oilwater7.png)
 
-![alt text](https://drive.google.com/file/d/0B56vzj8m6JInclJteUpvQTJFbWs/view?usp=sharing)
-[source](https://drive.google.com/file/d/0B56vzj8m6JInclJteUpvQTJFbWs/view?usp=sharing)
+![alt text](aleszu.com/workshops/oilwater8.png)
+[source](aleszu.com/workshops/oilwater8.png)
 
 ## Do the analysis yourself
 
@@ -50,5 +50,6 @@ Boot up [Carto.com](http://Carto.com), create a login and upload the CSV from ab
 You might also want to add in shapefiles for the country's crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/BorderCrossing_Liquids_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
 
 Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
+
 
 
