@@ -43,6 +43,11 @@ The following workshop walks you through a data analysis and visualization I car
 
 For this workshop, download a filtered version I cleaned up that only has crude oil spills over 100 barrels (net lost) since 2010 [here](https://drive.google.com/file/d/0B56vzj8m6JInRWZGM0tyQk94VTA/view?usp=sharing). If you want the full zip file of PHMSA flagged incidents go [here](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files).
 
+Try asking yourself another question and answer it with this dataset. Try asking questions on: 
+1. a commodity besides crude oil 
+2. the riskiest pipeline operators 
+3. spills in specific states
+
 ## Build the map yourself
 
 Boot up [Carto.com](http://Carto.com), create a login and upload the CSV from above. Plot the data by latitude and longitude and then style the points by net barrels recovered. Voilá.
