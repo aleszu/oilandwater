@@ -2,14 +2,14 @@
 
 ## The Dakota Access Pipeline protest of 2016
 
-![alt text](aleszu.com/workshops/oilwater1.png)
-[source](aleszu.com/workshops/oilwater1.png)
+![alt text](http://aleszu.com/workshops/oilwater1.png)
+[source](http://aleszu.com/workshops/oilwater1.png)
 
-![alt text](aleszu.com/workshops/oilwater2.png)
-[source](aleszu.com/workshops/oilwater2.png)
+![alt text](http://aleszu.com/workshops/oilwater2.png)
+[source](http://aleszu.com/workshops/oilwater2.png)
 
-![alt text](aleszu.com/workshops/oilwater4.png)
-[source](aleszu.com/workshops/oilwater4.png)
+![alt text](http://aleszu.com/workshops/oilwater4.png)
+[source](http://aleszu.com/workshops/oilwater4.png)
 
 ## Questions I had that guided my reporting
 
@@ -27,17 +27,17 @@ And where in the U.S. do these spills occur?
 
 I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA).
 
-![alt text](aleszu.com/workshops/oilwater5.png)
-[source](aleszu.com/workshops/oilwater5.png)
+![alt text](http://aleszu.com/workshops/oilwater5.png)
+[source](http://aleszu.com/workshops/oilwater5.png)
 
-![alt text](aleszu.com/workshops/oilwater6.png)
-[source](aleszu.com/workshops/oilwater6.png)
+![alt text](http://aleszu.com/workshops/oilwater6.png)
+[source](http://aleszu.com/workshops/oilwater6.png)
 
-![alt text](aleszu.com/workshops/oilwater7.png)
-[source](aleszu.com/workshops/oilwater7.png)
+![alt text](http://aleszu.com/workshops/oilwater7.png)
+[source](http://aleszu.com/workshops/oilwater7.png)
 
-![alt text](aleszu.com/workshops/oilwater8.png)
-[source](aleszu.com/workshops/oilwater8.png)
+![alt text](http://aleszu.com/workshops/oilwater8.png)
+[source](http://aleszu.com/workshops/oilwater8.png)
 
 ## Do the analysis yourself
 
