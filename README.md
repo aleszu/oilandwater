@@ -52,7 +52,7 @@ Try asking yourself another question and answer it with this dataset. Try asking
 
 Boot up [Carto.com](http://Carto.com), create a login and upload the CSV from above. Plot the data by latitude and longitude and then style the points by net barrels recovered. Voilá.
 
-You might also want to add in shapefiles for the country's crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/BorderCrossing_Liquids_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
+You might also want to add in shapefiles for the country's crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
 
 Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
 
