@@ -62,5 +62,8 @@ Try asking yourself another question and answer it with this dataset. Try asking
 
 Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
 
+![alt text](http://aleszu.com/workshops/carto_oilwater.png)
+
+Link to Undark interactive map [here](https://undark.carto.com/viz/e053d3f2-b66b-11e6-a2ce-0e233c30368f/public_map) and workshop interactive map [here](https://storybench.carto.com/builder/eaeb6a08-0e47-11e7-a547-0ef24382571b/).
 
 
