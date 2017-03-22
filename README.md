@@ -7,11 +7,11 @@ The following workshop walks you through a data analysis and visualization I car
 
 ![alt text](http://aleszu.com/workshops/oilwater1.png)
 
-### What are these protestors angry about?
+### What are some of things these protestors are so angry about?
 
 ![alt text](http://aleszu.com/workshops/oilwater2.png)
 
-### Could DAPL rupture? If so, what was the risk?
+### Could DAPL rupture? If so, what is the risk?
 
 ![alt text](http://aleszu.com/workshops/oilwater4.png)
 
@@ -50,9 +50,15 @@ Try asking yourself another question and answer it with this dataset. Try asking
 
 ## Build the map yourself
 
-Boot up [Carto.com](http://Carto.com), create a login and upload the CSV from above. Plot the data by latitude and longitude and then style the points by net barrels recovered. Voilá.
+1. Boot up [Carto.com](http://Carto.com), create a login and upload the CSV from above. 
 
-You might also want to add in shapefiles for the country's crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
+2. Plot the data by latitude and longitude and then style the points by net barrels recovered. 
+
+3. To add interactivity to your map, play with the "widgets" function. Add a "histogram" pulled from one of your columns, like "net_loss_barrels," and a "category" from the "iyear" column.
+
+4. What other geographic information might be helpful? Let's add in the shapefiles for the U.S.'s crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). 
+
+5. Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
 
 Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
 
