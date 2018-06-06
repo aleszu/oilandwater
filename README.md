@@ -66,4 +66,12 @@ Read the full story on Undark [here](https://undark.org/article/oil-pipeline-saf
 
 Link to Undark interactive map [here](https://undark.carto.com/viz/e053d3f2-b66b-11e6-a2ce-0e233c30368f/public_map) and workshop interactive map [here](https://storybench.carto.com/builder/eaeb6a08-0e47-11e7-a547-0ef24382571b/).
 
+## European data 
+
+[Shapefiles](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/) of France's AOC regions. 
+
+A great list from UPenn on European [GIS data](https://guides.library.upenn.edu/c.php?g=475518&p=3254771).
+
+A shapefile of European natural gas pipelines [here](https://enipedia.org/wiki/NaturalGasInfrastructure).
+
 
