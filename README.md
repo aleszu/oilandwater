@@ -9,25 +9,27 @@ The following workshop walks you through a data analysis and visualization I car
 
 ### What are some of things these protestors are so angry about?
 
-![alt text](http://aleszu.com/workshops/oilwater2.png)
+![alt text](http://aleszu.com/workshops/oilwater4b.jpg)
 
-### Could DAPL rupture? If so, what is the risk?
+### How often do spills occur? And when pipelines rupture, how much oil spills?
 
 ![alt text](http://aleszu.com/workshops/oilwater4.png)
 
-### How often do spills occur?
+### Where in the U.S. do these spills occur?
 
-### When they rupture, how much oil spills?
+![alt text](http://aleszu.com/workshops/oilwater2.png)
 
-### And where in the U.S. do these spills occur?
+### Could we map that?
+
+![alt text](http://aleszu.com/workshops/oilwater4d.jpg)
 
 # How I put it together
 
-### I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA).
+### I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA). 
 
 ![alt text](http://aleszu.com/workshops/oilwater5.png)
 
-### I downloaded a zip file.
+### I downloaded a zip file. 
 
 ![alt text](http://aleszu.com/workshops/oilwater6.png)
 
@@ -39,14 +41,28 @@ The following workshop walks you through a data analysis and visualization I car
 
 ![alt text](http://aleszu.com/workshops/oilwater8.png)
 
-## Do the analysis yourself
+### I dropped my cleaned up spreadsheet into Carto.com
 
-For this workshop, download a filtered version I cleaned up that only has crude oil spills over 100 barrels (net lost) since 2010 [here](https://drive.google.com/file/d/0B56vzj8m6JInRWZGM0tyQk94VTA/view?usp=sharing). If you want the full zip file of PHMSA flagged incidents go [here](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files).
+![alt text](http://aleszu.com/workshops/carto-oilwater.png)
+
+### And it blew up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
+
+![alt text](http://aleszu.com/workshops/twitter-oilwater.png)
+
+# Do it yourself
+
+For this workshop, let's start with a filtered version of hazardous spills since 2010. If you want the full zip file of PHMSA flagged incidents go [here](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files).
+
+## Let's start with Datawrapper.de
+
+Go to [datawrapper.de](http://datawrapper.de) and click Create a Map. Then, click Symbol maps.
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater.png)
 
 Try asking yourself another question and answer it with this dataset. Try asking questions on: 
-1. a commodity besides crude oil 
-2. the riskiest pipeline operators 
-3. spills in specific states
+1. A commodity besides crude oil 
+2. The riskiest pipeline operators 
+3. Spills in specific states
 
 ## Build the map yourself
 
