@@ -45,7 +45,11 @@ The following workshop walks you through a data analysis and visualization I car
 
 ![alt text](http://aleszu.com/workshops/carto-oilwater.png)
 
-### And it blew up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
+### And write a story 
+
+Get sources like Rosenfeld, Stafford, Bommer, Coleman and Horn – who did the spill risk analysis for DAPL – on the line and write up an article.  
+
+### Publish it and watch it blow up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
 
 ![alt text](http://aleszu.com/workshops/twitter-oilwater.png)
 
@@ -55,9 +59,19 @@ For this workshop, let's start with a filtered version of hazardous spills since
 
 ## Let's start with Datawrapper.de
 
-Go to [datawrapper.de](http://datawrapper.de) and click Create a Map. Then, click Symbol maps.
+1. Go to [datawrapper.de](http://datawrapper.de) and click "Create a Map." Then, click "Symbol maps."
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater.png)
+
+2. Search for "USA" and click "USA » US-States"
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater2.png)
+
+3. Under add your data, click "import your dataset" button, click import dataset by latitude and longitude, and upload a [CSV like this one of the top 20 crude spills by size]().
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater3.png)
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater4.png)
 
 Try asking yourself another question and answer it with this dataset. Try asking questions on: 
 1. A commodity besides crude oil 
@@ -76,7 +90,7 @@ Try asking yourself another question and answer it with this dataset. Try asking
 
 5. Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
 
-Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
+Read the full story on Undark [here](https://x.
 
 ![alt text](http://aleszu.com/workshops/carto-oilwater.png)
 
