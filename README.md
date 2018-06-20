@@ -51,9 +51,9 @@ The following workshop walks you through a data analysis and visualization I car
 
 ### And then I reported my story 
 
-I tracked down and got sources like Rosenfeld, Stafford, Bommer, Coleman and Horn – who did the spill risk analysis for DAPL – on the line and write up an article.  
+I tracked down and got sources like Rosenfeld, Stafford, Bommer, Coleman and Horn – who did the spill risk analysis for DAPL – on the line and write up an article. 
 
-
+![alt text](http://aleszu.com/workshops/carto-oilwater9.png)
 
 ### We published it and watch it blow up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
 
