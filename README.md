@@ -93,6 +93,14 @@ Descriptive statistics is used to describe the features of a dataset. In the cas
 
 Let's do the same for the UNINTENTIONAL_RELEASE_BBLS column and compare the Sum, Average, Min, Max, and Count. Notice how much was supposedly recovered. In calculating the total number of crude oil spills since 2010, I used the UNINTENTIONAL_RELEASE_BBLS column. In calculating the size of the spills, I used the NET_LOSS_BBLS, giving the operators the benefit of the doubt on the whole. (In my reporting, I found that many of these spills – especially smaller ones – leaked out into [containment structures](http://peninsulaclarion.com/news/local/2018-01-23/earthquake-causes-small-refinery-spill) not unlike a "rain barrel in a bathtub" and could conceivably be cleaned up.)  
 
+### Quick charting
+
+Good data scientists, data visualizers and data journalists will all tell you that they tend to generate between 50 and 100 visualizations of their data before settling on the ones they're going to publish. Just like descriptive statistics, this exploratory data visualization is helpful in getting one's head around the data. For an idea of a quick graphic that is helpful in giving you context about the data, let's select and sort the "year" column A -> Z and then click "Chart" from the "Insert" tab on the menu. Choose "column chart" and select "Aggregate column R" at the bottom.
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater5.png)
+
+What are some other charts you could draw up?
+
 ### Embedding your analysis in your story 
 
 Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) my statistical analysis of the PHMSA data. See if you can filter and sort the data to reach my conclusions. 
