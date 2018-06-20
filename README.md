@@ -71,7 +71,17 @@ For this workshop, let's start with a filtered version of hazardous spills since
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater3.png)
 
+4. Next, adjust the column that will be mapped to the "size" of the symbols. Select "NET_LOSS_BBLS." Click "Proceed" at bottom of page.
+
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater4.png)
+
+5. Click the "Annotate" tab and add a title like "Top 20 crude oil spills since 2010." 
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater5.png)
+
+6. Click "Publish" and on the next page click "Publish Chart." Copy the URL or embed code. 
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater6.png)
 
 Try asking yourself another question and answer it with this dataset. Try asking questions on: 
 1. A commodity besides crude oil 
