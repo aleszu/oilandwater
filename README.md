@@ -1,7 +1,7 @@
-# Reporting on the Dakota Access Pipeline protests of 2016.
-## An analysis and visualization of federal data on crude oil spills  
+# Reporting on the Dakota Access Pipeline protests of 2016
+## An analysis and visualization of federal data on crude oil spills in the U.S.
 
-The following workshop walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using Excel and Carto.com. 
+The following workshop walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using tools like Google Sheets, Excel, Datawrapper and Carto.com. 
 
 ### Questions I had that guided my reporting
 
@@ -45,19 +45,49 @@ The following workshop walks you through a data analysis and visualization I car
 
 ![alt text](http://aleszu.com/workshops/carto-oilwater.png)
 
-### And write a story 
+### And then I reported my story 
 
-Get sources like Rosenfeld, Stafford, Bommer, Coleman and Horn – who did the spill risk analysis for DAPL – on the line and write up an article.  
+I tracked down and got sources like Rosenfeld, Stafford, Bommer, Coleman and Horn – who did the spill risk analysis for DAPL – on the line and write up an article.  
 
-### Publish it and watch it blow up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
+### We published it and watch it blow up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
 
 ![alt text](http://aleszu.com/workshops/twitter-oilwater.png)
 
-# Do it yourself
+# Data analysis and visualization: do it yourself
 
-For this workshop, let's start with a filtered version of hazardous spills since 2010. If you want the full zip file of PHMSA flagged incidents go [here](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files).
+For this workshop, let's start with a filtered version of the [top 20 crude oil spills](http://aleszu.com/workshops/top20crude.csv) since 2010 by size. If you want the full zip file of PHMSA flagged incidents go [here](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files).
 
-## Let's start with Datawrapper.de
+## Data filtering and sorting
+
+### How did I get the top 20 crude oil spills by size?
+
+Let's first inspect the full dataset in Google Sheets. [Open this spreadsheet](https://docs.google.com/spreadsheets/d/1ZIjpP5WfUwXLCHvsjdxdxS4ngj2UrUMRb4kE3DXw_20/edit?usp=sharing) and click "Make a copy..." in the File menu. (Notice the title, hl2010toPresent, is the same spreadsheet I downloaded from the PHMSA website zip file.) Add a filter by clicking "Turn on filter" in the Data menu or clicking the filter icon.
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater.png)
+
+### Filter by COMMODITY_RELEASED_TYPE 
+
+We want to analyze only crude oil spills – since that's what our story is about – so we'll click the drop-down triangle next to COMMODITY_RELEASED_TYPE and click "Clear" under "Filter by values..." Next, scroll down and select "CRUDE OIL" and then click the blue "OK" button. 
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater1.png)
+
+### Sort NET_LOSS_BBLS by highest to lowest
+
+We want to see which crude oil spills were the largest in this dataset, so click NET_LOSS_BBLS and click "Sort Z -> A" (Notice that COMMODITY_RELEASED_TYPE has a green filter and only CRUDE OIL rows are appearing.
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater2.png)
+
+## Exploratory data visualization
+
+### Descriptive statistics 
+
+Descriptive statistics is used to describe the features of a dataset. In the case of column NET_LOSS_BBLS, we'd like to know the average, the minimum, the maximum, and the count to get our heads around the data. Select the NET_LOSS_BBLS column by clicking "AE" and look at the bottom-right corner for a box listing Sum, Average, Min, Max, Count and Count Numbers. What do you notice about these spills? 
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater2.png)
+
+Let's do the same for the UNINTENTIONAL_RELEASE_BBLS column and compare the Sum, Average, Min, Max, and Count.
+
+## Mapping with Datawrapper.de
 
 1. Go to [datawrapper.de](http://datawrapper.de) and click "Create a Map." Then, click "Symbol maps."
 
@@ -67,7 +97,7 @@ For this workshop, let's start with a filtered version of hazardous spills since
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater2.png)
 
-3. Under add your data, click "import your dataset" button, click import dataset by latitude and longitude, and upload a [CSV like this one of the top 20 crude spills by size]().
+3. Under add your data, click "import your dataset" button, click import dataset by latitude and longitude, and upload a [CSV like this one of the top 20 crude spills by size](http://aleszu.com/workshops/top20crude.csv).
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater3.png)
 
@@ -75,11 +105,15 @@ For this workshop, let's start with a filtered version of hazardous spills since
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater4.png)
 
-5. Click the "Annotate" tab and add a title like "Top 20 crude oil spills since 2010." 
+5. Click "Set symbol tooltip" to map some data to points that will be revealed once a user hovers over them. I've decided to put ONSHORE_COUNTY NAME and ONSHORE_STATE_ABBREVIATION in the title and NET_LOSS_BBLS in the body of the tooltip. You can add text, commas, colons and some basic HTML like a line break <br /> to design the tooltip. Scroll down and click "Save."
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater7.png)
+
+6. Click the "Annotate" tab and add a title like "Top 20 crude oil spills since 2010." 
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater5.png)
 
-6. Click "Publish" and on the next page click "Publish Chart." Copy the URL or embed code. 
+7. Click "Publish" and on the next page click "Publish Chart." Copy the URL or embed code. 
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater6.png)
 
