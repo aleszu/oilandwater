@@ -89,7 +89,7 @@ We want to see which crude oil spills were the largest in this dataset, so click
 
 Descriptive statistics is used to describe the features of a dataset. In the case of column NET_LOSS_BBLS, we'd like to know the average, the minimum, the maximum, and the count to get our heads around the data. Select the NET_LOSS_BBLS column by clicking "AE" and look at the bottom-right corner for a box listing Sum, Average, Min, Max, Count and Count Numbers. What do you notice about these spills? 
 
-![alt text](http://aleszu.com/workshops/sheets-oilwater2.png)
+![alt text](http://aleszu.com/workshops/sheets-oilwater3.png)
 
 Let's do the same for the UNINTENTIONAL_RELEASE_BBLS column and compare the Sum, Average, Min, Max, and Count. Notice how much was supposedly recovered. In calculating the total number of crude oil spills since 2010, I used the UNINTENTIONAL_RELEASE_BBLS column. In calculating the size of the spills, I used the NET_LOSS_BBLS, giving the operators the benefit of the doubt on the whole. (In my reporting, I found that many of these spills – especially smaller ones – leaked out into [containment structures](http://peninsulaclarion.com/news/local/2018-01-23/earthquake-causes-small-refinery-spill) not unlike a "rain barrel in a bathtub" and could conceivably be cleaned up.)  
 
@@ -131,14 +131,16 @@ Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater6.png)
 
+### Other questions you could ask of the data and then map
+
 Try asking yourself another question and answer it with this dataset. Try asking questions on: 
 1. A commodity besides crude oil 
 2. The riskiest pipeline operators 
 3. Spills in specific states
 
-## Build the map yourself
+## Build a more custom map
 
-1. Boot up [Carto.com](http://Carto.com), create a login and upload the CSV from above. 
+1. Boot up [Carto.com](http://Carto.com), create a login and upload the [full hl2010toPresent CSV](https://docs.google.com/spreadsheets/d/1ZIjpP5WfUwXLCHvsjdxdxS4ngj2UrUMRb4kE3DXw_20/edit?usp=sharing). 
 
 2. Plot the data by latitude and longitude and then style the points by net barrels recovered. 
 
