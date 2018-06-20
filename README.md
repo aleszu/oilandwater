@@ -154,11 +154,11 @@ Try asking yourself another question and answer it with this dataset. Try asking
 
 3. To add interactivity to your map, play with the "widgets" function. Add a "histogram" pulled from one of your columns, like "net_loss_barrels," and a "category" from the "iyear" column.
 
-4. What other geographic information might be helpful? Let's add in the shapefiles for the U.S.'s crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). 
+4. What other geographic information might be helpful? Let's add in the shapefiles for the U.S.'s crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). We can also add a [shapefile](https://undark.carto.com/tables/pipeline_10_19_2016/public) of the proposed DAPL route.
 
 5. Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
 
-Read the full story on Undark [here](https://x.
+Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
 
 ![alt text](http://aleszu.com/workshops/carto-oilwater.png)
 
