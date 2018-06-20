@@ -49,6 +49,8 @@ The following workshop walks you through a data analysis and visualization I car
 
 I tracked down and got sources like Rosenfeld, Stafford, Bommer, Coleman and Horn – who did the spill risk analysis for DAPL – on the line and write up an article.  
 
+
+
 ### We published it and watch it blow up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
 
 ![alt text](http://aleszu.com/workshops/twitter-oilwater.png)
@@ -73,7 +75,7 @@ We want to analyze only crude oil spills – since that's what our story is abou
 
 ### Sort NET_LOSS_BBLS by highest to lowest
 
-We want to see which crude oil spills were the largest in this dataset, so click NET_LOSS_BBLS and click "Sort Z -> A" (Notice that COMMODITY_RELEASED_TYPE has a green filter and only CRUDE OIL rows are appearing.
+We want to see which crude oil spills were the largest in this dataset, so click NET_LOSS_BBLS and click "Sort Z -> A" (Notice that COMMODITY_RELEASED_TYPE has a green filter and only CRUDE OIL rows are appearing. Now you know how I got the top 20 largest spills since 2010.  
 
 ![alt text](http://aleszu.com/workshops/sheets-oilwater2.png)
 
@@ -85,7 +87,15 @@ Descriptive statistics is used to describe the features of a dataset. In the cas
 
 ![alt text](http://aleszu.com/workshops/sheets-oilwater2.png)
 
-Let's do the same for the UNINTENTIONAL_RELEASE_BBLS column and compare the Sum, Average, Min, Max, and Count.
+Let's do the same for the UNINTENTIONAL_RELEASE_BBLS column and compare the Sum, Average, Min, Max, and Count. Notice how much was supposedly recovered. In calculating the total number of crude oil spills since 2010, I used the UNINTENTIONAL_RELEASE_BBLS column. In calculating the size of the spills, I used the NET_LOSS_BBLS, giving the operators the benefit of the doubt on the whole. (In my reporting, I found that many of these spills – especially smaller ones – leaked out into [containment structures](http://peninsulaclarion.com/news/local/2018-01-23/earthquake-causes-small-refinery-spill) not unlike a "rain barrel in a bathtub" and could conceivably be cleaned up.)  
+
+### Embedding your analysis in your story 
+
+Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) my statistical analysis of the PHMSA data. See if you can filter and sort the data to reach my conclusions. 
+
+"Since 2010, there have been more than 1,300 crude oil spills in the United States, according to data collected by the Pipeline and Hazardous Materials Safety Administration, a regulatory arm of the U.S. Department of Transportation: That’s one crude oil spill every other day."
+
+"Of the 8.9 million gallons spilled since 2010, the agency has reported that over 70 percent, or 6.3 million gallons, has been recovered. Filtering PHMSA data to look at spills in onshore water crossings only, like rivers, however, the recovery rate drops to just 30 percent."
 
 ## Mapping with Datawrapper.de
 
