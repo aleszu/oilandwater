@@ -127,7 +127,7 @@ Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater5.png)
 
-7. Click "Publish" and on the next page click "Publish Chart." Copy the URL or embed code. 
+7. Click "Publish" and on the next page click "Publish Chart." Copy the [URL or embed code](https://datawrapper.dwcdn.net/UgPYR/3/). 
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater6.png)
 
