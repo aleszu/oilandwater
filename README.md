@@ -11,7 +11,11 @@ The following workshop walks you through a data analysis and visualization I car
 
 ![alt text](http://aleszu.com/workshops/oilwater4b.jpg)
 
-### How often do spills occur? And when pipelines rupture, how much oil spills?
+### How often do spills occur? 
+
+![alt text](http://aleszu.com/workshops/oilwater4c.jpg)
+
+### And when pipelines rupture, how much oil spills?
 
 ![alt text](http://aleszu.com/workshops/oilwater4.png)
 
