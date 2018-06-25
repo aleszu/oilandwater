@@ -5,11 +5,14 @@ The following workshop walks you through a data analysis and visualization I car
 
 ### Table of contents
 
-1. Introduction 
-2. [How I did it](https://github.com/aleszu/oilandwater#how-i-put-it-together)
-2. [Data analysis and visualization](https://github.com/aleszu/oilandwater#data-analysis-and-visualization-do-it-yourself)
-3. [Mapping with Datawrapper](https://github.com/aleszu/oilandwater/blob/master/README.md#mapping-with-datawrapperde) (Beginner) 
-4. [Mapping with Carto](https://github.com/aleszu/oilandwater/blob/master/README.md#build-a-more-custom-map-with-carto) (Intermediate)
+1. Reporting on the environment 
+2. [How I found the data](https://github.com/aleszu/oilandwater#how-i-put-it-together)
+3. [Data analysis and visualization](https://github.com/aleszu/oilandwater#data-analysis-and-visualization-do-it-yourself)
+4. Exploratory data visualization
+5. [Mapping with Datawrapper](https://github.com/aleszu/oilandwater/blob/master/README.md#mapping-with-datawrapperde) (Beginner) 
+6. [Mapping with Carto](https://github.com/aleszu/oilandwater/blob/master/README.md#build-a-more-custom-map-with-carto) (Intermediate)
+
+# Reporting on the environment
 
 ### Questions I had that guided my reporting
 
@@ -35,7 +38,7 @@ The following workshop walks you through a data analysis and visualization I car
 
 ![alt text](http://aleszu.com/workshops/oilwater4d.jpg)
 
-# How I put it together
+# How I found the data
 
 ### I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA). 
 
@@ -67,7 +70,7 @@ I tracked down and got sources like Rosenfeld, Stafford, Bommer, Coleman and Hor
 
 ![alt text](http://aleszu.com/workshops/twitter-oilwater.png)
 
-# Data analysis and visualization: do it yourself
+# Data analysis and visualization
 
 For this workshop, let's start with a filtered version of the [top 20 crude oil spills](http://aleszu.com/workshops/top20crude.csv) since 2010 by size. If you want the full zip file of PHMSA flagged incidents go [here](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files).
 
@@ -91,7 +94,7 @@ We want to see which crude oil spills were the largest in this dataset, so click
 
 ![alt text](http://aleszu.com/workshops/sheets-oilwater2.png)
 
-## Exploratory data visualization
+# Exploratory data visualization
 
 ### Descriptive statistics 
 
@@ -124,7 +127,7 @@ Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety
 
 "Of the 8.9 million gallons spilled since 2010, the agency has reported that over 70 percent, or 6.3 million gallons, has been recovered. Filtering PHMSA data to look at spills in onshore water crossings only, like rivers, however, the recovery rate drops to just 30 percent."
 
-## Mapping with Datawrapper.de
+# Mapping with Datawrapper
 
 1. Go to [datawrapper.de](http://datawrapper.de) and click "Create a Map." Then, click "Symbol maps."
 
@@ -156,7 +159,7 @@ Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety
 
 
 
-## Build a more custom map with Carto
+# Mapping with Carto
 
 1. Boot up [Carto.com](http://Carto.com), create a login and upload the [full hl2010toPresent CSV](https://docs.google.com/spreadsheets/d/1ZIjpP5WfUwXLCHvsjdxdxS4ngj2UrUMRb4kE3DXw_20/edit?usp=sharing). 
 
@@ -212,11 +215,13 @@ Read the full story on Undark [here](https://undark.org/article/oil-pipeline-saf
 
 Link to Undark interactive map [here](https://undark.carto.com/viz/e053d3f2-b66b-11e6-a2ce-0e233c30368f/public_map) and workshop interactive map [here](https://storybench.carto.com/builder/eaeb6a08-0e47-11e7-a547-0ef24382571b/).
 
-## Mapping nuclear data 
+# Extras
+
+### Mapping nuclear data 
 
 Try mapping nuclear powerplants. Data from [CarbonBrief](https://www.carbonbrief.org/mapped-the-worlds-nuclear-power-plants).
 
-## European data 
+### European data 
 
 [Shapefiles](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/) of France's AOC regions. 
 
