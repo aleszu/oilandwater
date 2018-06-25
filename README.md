@@ -1,4 +1,4 @@
-# Reporting on the Dakota Access Pipeline protests of 2016
+# Mapping workshop for environmental reporting
 ## An analysis and visualization of federal data on crude oil spills in the U.S.
 
 The following workshop walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using tools like Google Sheets, Excel, Datawrapper and Carto.com. 
@@ -99,7 +99,14 @@ Good data scientists, data visualizers and data journalists will all tell you th
 
 ![alt text](http://aleszu.com/workshops/sheets-oilwater5.png)
 
-What are some other charts you could draw up?
+What are some other charts you could draw up? 
+
+### Other questions you could ask of the data
+
+Try asking yourself another question and answer it with this dataset. Try asking questions on: 
+1. A commodity besides crude oil 
+2. The riskiest pipeline operators 
+3. Spills in specific states
 
 ### Embedding your analysis in your story 
 
@@ -139,24 +146,49 @@ Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety
 
 ![alt text](http://aleszu.com/workshops/datawrapper-oilwater6.png)
 
-### Other questions you could ask of the data and then map
 
-Try asking yourself another question and answer it with this dataset. Try asking questions on: 
-1. A commodity besides crude oil 
-2. The riskiest pipeline operators 
-3. Spills in specific states
 
 ## Build a more custom map
 
 1. Boot up [Carto.com](http://Carto.com), create a login and upload the [full hl2010toPresent CSV](https://docs.google.com/spreadsheets/d/1ZIjpP5WfUwXLCHvsjdxdxS4ngj2UrUMRb4kE3DXw_20/edit?usp=sharing). 
 
-2. Plot the data by latitude and longitude and then style the points by net barrels recovered. 
+2. Upload the CSV by connecting your dataset.
 
-3. To add interactivity to your map, play with the "widgets" function. Add a "histogram" pulled from one of your columns, like "net_loss_barrels," and a "category" from the "iyear" column.
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map.png)
 
-4. What other geographic information might be helpful? Let's add in the shapefiles for the U.S.'s crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). We can also add a [shapefile](https://undark.carto.com/tables/pipeline_10_19_2016/public) of the proposed DAPL route.
+3. After your dataset is loaded in, click "Create Map." 
 
-5. Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map1.png)
+
+4. No points should appear. Click "Geocode" and then define your parameters by selecting the "location_latitude" column for Latitude and "location_longitude" for the Longitude column. 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map2.png)
+
+5. Click "Apply" and you should see points appear on your map. 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map3.png)
+
+6. Click "Add new analysis" under the "Analysis" tab and select Filter. 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map4.png)
+
+7. Select the column you want to filter by, in our case it's "commodity_released_type" and then show "crude oil."
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map5.png)
+
+8. Next, unde the "Style" tab, select the "By value" button next to "Point size" and select the "net_loss_bbls" column.
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map6.png)
+
+You're now faced with the tough decision of binning your data's distribution when selecting the bubble size.  Let's do a quick aside into data classification.
+
+![alt text](http://aleszu.com/workshops/dataclassification.png)
+
+10. Let's add in the shapefiles for the U.S.'s crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). We can also add a [shapefile](https://undark.carto.com/tables/pipeline_10_19_2016/public) of the proposed DAPL route.
+
+11. To add interactivity to your map, play with the "widgets" function. Add a "histogram" pulled from one of your columns, like "net_loss_barrels," and a "category" from the "iyear" column.
+
+12. Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
 
 Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
 
