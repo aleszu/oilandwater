@@ -3,6 +3,13 @@
 
 The following workshop walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using tools like Google Sheets, Excel, Datawrapper and Carto.com. 
 
+### Table of contents
+
+1. Introduction 
+2. Data filtering and sorting
+3. [Mapping with Datawrapper](https://github.com/aleszu/oilandwater/blob/master/README.md#mapping-with-datawrapperde) (Beginner) 
+4. Mapping with Carto (Intermediate)
+
 ### Questions I had that guided my reporting
 
 ![alt text](http://aleszu.com/workshops/oilwater1.png)
@@ -148,7 +155,7 @@ Below are two places I [embedded](https://undark.org/article/oil-pipeline-safety
 
 
 
-## Build a more custom map
+## Build a more custom map with Carto
 
 1. Boot up [Carto.com](http://Carto.com), create a login and upload the [full hl2010toPresent CSV](https://docs.google.com/spreadsheets/d/1ZIjpP5WfUwXLCHvsjdxdxS4ngj2UrUMRb4kE3DXw_20/edit?usp=sharing). 
 
