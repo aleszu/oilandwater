@@ -186,9 +186,13 @@ You're now faced with the tough decision of binning your data's distribution whe
 
 ![alt text](http://aleszu.com/workshops/dataclassification2.png)
 
-9. 
+9. For this workshop, I selected the "Equal Intervals" classification and a 4 to 40 ramp, highlighting only the largest spills. Change the color by selecting the "Point color" color bar. Change the point overlap to "xor" to achieve mine.
 
-10. Let's add in the shapefiles for the U.S.'s crude oil pipelines. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). We can also add a [shapefile](https://undark.carto.com/tables/pipeline_10_19_2016/public) of the proposed DAPL route.
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map8.png)
+
+10. Let's add in the shapefiles for the U.S.'s crude oil pipelines. Add the pipelines by clicking "Add New Layer" in the main layers screen. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). (We can also add a [shapefile](https://undark.carto.com/tables/pipeline_10_19_2016/public) of the proposed DAPL route.)
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map9.png)
 
 11. To add interactivity to your map, play with the "widgets" function. Add a "histogram" pulled from one of your columns, like "net_loss_barrels," and a "category" from the "iyear" column.
 
