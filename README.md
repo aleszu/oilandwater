@@ -6,9 +6,10 @@ The following workshop walks you through a data analysis and visualization I car
 ### Table of contents
 
 1. Introduction 
-2. Data filtering and sorting
+2. [How I did it](https://github.com/aleszu/oilandwater#how-i-put-it-together)
+2. [Data analysis and visualization](https://github.com/aleszu/oilandwater#data-analysis-and-visualization-do-it-yourself)
 3. [Mapping with Datawrapper](https://github.com/aleszu/oilandwater/blob/master/README.md#mapping-with-datawrapperde) (Beginner) 
-4. Mapping with Carto (Intermediate)
+4. [Mapping with Carto](https://github.com/aleszu/oilandwater/blob/master/README.md#build-a-more-custom-map-with-carto) (Intermediate)
 
 ### Questions I had that guided my reporting
 
