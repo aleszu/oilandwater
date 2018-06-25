@@ -1,7 +1,7 @@
 # Mapping workshop for environmental reporting
 ## An analysis and visualization of federal data on crude oil spills in the U.S.
 
-The following workshop walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using tools like Google Sheets, Excel, Datawrapper and Carto.com. 
+The following workshop, presented at the 2018 [European Science Journalism Conference](https://www.ecsj2018.eu/program-speakers), walks you through a data analysis and visualization I carried out for [Undark magazine](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/) on the risk of an oil spill surrounding the Dakota Access Pipeline debate. It is an introduction to finding, cleaning and visualizing federal data using tools like Google Sheets, Excel, Datawrapper and Carto.com. 
 
 ### Table of contents
 
