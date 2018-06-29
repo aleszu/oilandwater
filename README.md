@@ -28,7 +28,7 @@ This workshop serves as an introduction to finding, cleaning and visualizing fed
 
 ![alt text](http://aleszu.com/workshops/nyctrees.jpg)
 
-### Questions I had that guided my reporting
+### So why couldn't I do it?
 
 ![alt text](http://aleszu.com/workshops/oilwater1.png)
 
