@@ -7,14 +7,26 @@ This workshop serves as an introduction to finding, cleaning and visualizing fed
 
 ### Table of contents
 
-1. Reporting on the environment 
+1. Data viz for environmental reporting 
 2. [How I found the data](https://github.com/aleszu/oilandwater#how-i-put-it-together)
 3. [Data analysis and visualization](https://github.com/aleszu/oilandwater#data-analysis-and-visualization-do-it-yourself)
 4. [Exploratory data visualization](https://github.com/aleszu/oilandwater/blob/master/README.md#exploratory-data-visualization)
 5. [Mapping with Datawrapper](https://github.com/aleszu/oilandwater/blob/master/README.md#mapping-with-datawrapperde) (Beginner) 
 6. [Mapping with Carto](https://github.com/aleszu/oilandwater/blob/master/README.md#build-a-more-custom-map-with-carto) (Intermediate)
 
-# Reporting on the environment
+# Data viz for environmental reporting
+
+### The Financial Times [is doing it](https://ig.ft.com/china-pollution/)
+
+![alt text](http://aleszu.com/workshops/ftcoal.jpg)
+
+### InsideClimate News [is doing it](https://insideclimatenews.org/news/28112017/interactive-map-beach-nourishment-boom)
+
+![alt text](http://aleszu.com/workshops/icnmap.png)
+
+### New York City [is doing it](https://tree-map.nycgovparks.org/)
+
+![alt text](http://aleszu.com/workshops/nyctrees.jpg)
 
 ### Questions I had that guided my reporting
 
