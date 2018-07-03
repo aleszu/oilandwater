@@ -1,0 +1,298 @@
+---
+title: "Mapping workshop for environmental reporting" 
+subtitle: "Aleszu Bajak"
+author: "ECSJ 2018, Toulouse, France"
+output: 
+  revealjs::revealjs_presentation:
+    theme: default
+    highlight: pygments
+    center: true
+---
+
+## Mapping workshop for environmental reporting
+
+This workshop serves as an introduction to finding, cleaning and mapping data using tools like **Google Sheets, Datawrapper** and **Carto.com**. 
+
+Slides and full tutorial are at [github.com/aleszu/oilandwater](github.com/aleszu/oilandwater).
+
+## Table of contents
+
+1. Why do data viz?
+2. How I found the data 
+3. Filtering and sorting 
+4. Exploratory data visualization
+5. Mapping with Datawrapper (Beginner) 
+6. Mapping with Carto (Intermediate)
+
+## Data viz for environmental reporting
+
+## The Financial Times [is doing it](https://ig.ft.com/china-pollution/)
+
+![alt text](http://aleszu.com/workshops/ftcoal.jpg)
+
+## InsideClimate News [is doing it](https://insideclimatenews.org/news/28112017/interactive-map-beach-nourishment-boom)
+
+![alt text](http://aleszu.com/workshops/icnmap.png)
+
+## Even New York City [is doing it](https://tree-map.nycgovparks.org/)
+
+![alt text](http://aleszu.com/workshops/nyctrees.jpg)
+
+## So why couldn't I do it for my story?
+
+![alt text](http://aleszu.com/workshops/oilwater1.png)
+
+## What are some of things these protestors are so angry about?
+
+![alt text](http://aleszu.com/workshops/oilwater4b.jpg)
+
+## How often do spills occur? 
+
+![alt text](http://aleszu.com/workshops/oilwater4c.jpg)
+
+## And when pipelines rupture, how much oil spills?
+
+![alt text](http://aleszu.com/workshops/oilwater4.png)
+
+## Where in the U.S. do these spills occur?
+
+![alt text](http://aleszu.com/workshops/oilwater2.png)
+
+## Could we map that?
+
+![alt text](http://aleszu.com/workshops/oilwater4d.jpg)
+
+## How I found the data
+
+## I found [data](https://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files) from the Pipeline and Hazardous Materials Safety Administration (PHMSA). 
+
+![alt text](http://aleszu.com/workshops/oilwater5.png)
+
+## I downloaded a zip file. 
+
+![alt text](http://aleszu.com/workshops/oilwater6.png)
+
+## The government was nice enough to tell me what every column corresponded to.
+
+![alt text](http://aleszu.com/workshops/oilwater7.png)
+
+## All I really had to do in Excel was filter, sort and count. 
+
+![alt text](http://aleszu.com/workshops/oilwater8.png)
+
+## I dropped my cleaned up spreadsheet into Carto.com
+
+![alt text](http://aleszu.com/workshops/carto-oilwater.png)
+
+## And then I reported my story 
+
+I tracked down and got sources like Rosenfeld, Stafford, Bommer, Coleman and Horn – who did the spill risk analysis for DAPL – on the line and write up an article. 
+
+![alt text](http://aleszu.com/workshops/carto-oilwater9.png)
+
+## We published it and watch it blow up on [Twitter](https://twitter.com/badhombrenps/status/824643921397555201)!
+
+![alt text](http://aleszu.com/workshops/twitter-oilwater.png)
+
+## Data filtering and sorting
+
+1. Download [the spreadsheet](https://docs.google.com/spreadsheets/d/1ZIjpP5WfUwXLCHvsjdxdxS4ngj2UrUMRb4kE3DXw_20/edit?usp=sharing) at **[bit.ly/ECSJallcrude](http://bit.ly/ECSJallcrude)** 
+2. "Make a copy..." in the File menu. 
+
+3. Add a filter by clicking "Turn on filter" in the Data menu or clicking the filter icon.
+
+## Adding a filter
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater.png)
+
+## Filter by COMMODITY_RELEASED_TYPE 
+
+1. Click the drop-down triangle next to COMMODITY_RELEASED_TYPE
+2. Click "Clear" under "Filter by values..."
+3. Scroll down and select "CRUDE OIL" and then click "OK." 
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater1.png)
+
+## Sort NET_LOSS_BBLS by highest to lowest
+
+1. Click NET_LOSS_BBLS and click "Sort Z -> A" (Notice that COMMODITY_RELEASED_TYPE has a green filter and only CRUDE OIL rows are appearing. 
+2. Now you know how I got the top 20 largest spills since 2010. 
+3. You can also find that at at **[bit.ly/ECSJtop20crude](http://bit.ly/ECSJtop20crude)**
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater2.png)
+
+## Exploratory data visualization
+
+## Descriptive statistics 
+
+Descriptive statistics is used to describe the features of a dataset. In the case of column NET_LOSS_BBLS, we'd like to know the **mean, the minimum, the maximum, and the count** to get our heads around the data. 
+
+## Doing basic descriptive statistics
+
+Select the NET_LOSS_BBLS column by clicking "AE" and look at the bottom-right corner for a box. What do you notice about these spills? (Let's do the same for the UNINTENTIONAL_RELEASE_BBLS.)
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater3.png)
+
+## Quick charting
+
+1. Select and sort the "year" column A -> Z.
+2. Then click "Chart" from the "Insert" tab on the menu. 
+3. Choose "column chart" and select "Aggregate column R" at the bottom.
+
+![alt text](http://aleszu.com/workshops/sheets-oilwater5.png)
+
+## Homework: Other questions you could ask of the data
+
+1. A commodity besides crude oil?
+2. The riskiest pipeline operators?
+3. Spills in specific states?
+
+## Embedding your analysis in your story 
+
+"Since 2010, there have been more than 1,300 crude oil spills in the United States, according to data collected by the Pipeline and Hazardous Materials Safety Administration, a regulatory arm of the U.S. Department of Transportation: That’s one crude oil spill every other day."
+
+"Of the 8.9 million gallons spilled since 2010, the agency has reported that over 70 percent, or 6.3 million gallons, has been recovered. Filtering PHMSA data to look at spills in onshore water crossings only, like rivers, however, the recovery rate drops to just 30 percent."
+
+## Mapping with Datawrapper
+
+1. Go to [datawrapper.de](http://datawrapper.de) and click "Create a Map." Then, click "Symbol maps."
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater.png)
+
+## Datawrapper
+
+2. Search for "USA" and click "USA » US-States"
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater2.png)
+
+## Datawrapper
+
+3. Under add your data, click "import your dataset" button and upload the [CSV of top 20 crude spills by size](http://aleszu.com/workshops/top20crude.csv) at **[bit.ly/ECSJtop20crude](http://bit.ly/ECSJtop20crude)**.
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater3.png)
+
+## Datawrapper
+
+4. Next, adjust the column that will be mapped to the "size" of the symbols. Select "NET_LOSS_BBLS." Click "Proceed" at bottom of page.
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater4.png)
+
+## Datawrapper
+
+5. Click "Set symbol tooltip" to map some data to points that will be revealed once a user hovers over them. You can also add text, commas, colons and some basic HTML. Scroll down and click "Save."
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater7.png)
+
+## Datawrapper
+
+6. Click the "Annotate" tab and add a title like "Top 20 crude oil spills since 2010." 
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater5.png)
+
+## Datawrapper
+
+7. Click "Publish" and on the next page click "Publish Chart." Copy the [URL or embed code](https://datawrapper.dwcdn.net/UgPYR/3/). 
+
+![alt text](http://aleszu.com/workshops/datawrapper-oilwater6.png)
+
+
+## Mapping with Carto
+
+1. Boot up [Carto.com](http://Carto.com), create a login and upload the [full CSV](https://docs.google.com/spreadsheets/d/1ZIjpP5WfUwXLCHvsjdxdxS4ngj2UrUMRb4kE3DXw_20/edit?usp=sharing) at **[bit.ly/ECSJallcrude](http://bit.ly/ECSJallcrude)** under "Add dataset."
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map.png)
+
+## Mapping with Carto
+
+3. After your dataset is loaded in, click "Create Map." 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map1.png)
+
+## Mapping with Carto
+
+4. No points should appear. Click "Geocode" and then select the "location_latitude" column for Latitude and "location_longitude" for the Longitude column. 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map2.png)
+
+## Mapping with Carto
+
+5. Click "Apply" and you should see points appear on your map. 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map3.png)
+
+## Mapping with Carto
+
+6. Click "Add new analysis" under the "Analysis" tab and select Filter. 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map4.png)
+
+## Mapping with Carto
+
+7. Select the column you want to filter by, in our case it's "commodity_released_type" and then show "crude oil."
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map5.png)
+
+## Mapping with Carto
+
+8. Next, under the "Style" tab, select the "By value" button next to "Point size" and select the "net_loss_bbls" column.
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map6.png)
+
+## Data classification
+
+You're now faced with the tough decision of binning your data's distribution when selecting the bubble size. Let's do a quick aside into data classification.
+
+## Data classification
+
+![alt text](http://aleszu.com/workshops/dataclassification.png)
+
+## Data classification
+
+![alt text](http://aleszu.com/workshops/dataclassification2.png)
+
+## Mapping with Carto
+
+9. For this workshop, I selected the "Equal Intervals" classification and a 4 to 40 ramp, highlighting only the largest spills. 
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map8.png)
+
+## Mapping with Carto
+
+10. Change the color by selecting the "Point color" color bar. Change the point overlap to "xor" to achieve mine.
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map8.png)
+
+## Mapping with Carto
+
+10. Let's add in the shapefiles for the U.S.'s crude oil pipelines. Add the pipelines by clicking "Add New Layer" in the main layers screen. Those can be found in a [zip](https://www.eia.gov/maps/map_data/CrudeOil_Pipelines_US_EIA.zip) from the [U.S. Energy Information Administration](https://www.eia.gov/maps/layer_info-m.php). (We can also add a [shapefile](https://undark.carto.com/tables/pipeline_10_19_2016/public) of the proposed DAPL route.)
+
+![alt text](http://aleszu.com/workshops/oilandwater-carto-map9.png)
+
+## Mapping with Carto
+
+11. To add interactivity to your map, play with the "widgets" function. Add a "histogram" pulled from one of your columns, like "net_loss_barrels," and a "category" from the "iyear" column.
+
+12. Extra points if you can track down and plot the shapefile for the Standing Rock reservation.
+
+## Publish!
+
+Read the full story on Undark [here](https://undark.org/article/oil-pipeline-safety-dakota-access-standing-rock/).
+
+![alt text](http://aleszu.com/workshops/carto-oilwater.png)
+
+
+## Extras
+
+## Mapping nuclear data 
+
+Try mapping nuclear powerplants. Data from [CarbonBrief](https://www.carbonbrief.org/mapped-the-worlds-nuclear-power-plants).
+
+## European data 
+
+[Shapefiles](https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/) of France's AOC regions. 
+
+A great list from UPenn on European [GIS data](https://guides.library.upenn.edu/c.php?g=475518&p=3254771).
+
+A shapefile of European natural gas pipelines [here](https://enipedia.org/wiki/NaturalGasInfrastructure).
+
+
