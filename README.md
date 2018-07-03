@@ -5,6 +5,10 @@ The following workshop, presented at the 2018 [European Science Journalism Confe
 
 This workshop serves as an introduction to finding, cleaning and visualizing federal data using tools like **Google Sheets, Excel, Datawrapper** and **Carto.com**. 
 
+Slides are at **[bit.ly/ECSJdataviz](http://bit.ly/ECSJdataviz)**.
+
+Full tutorial at **[github.com/aleszu/oilandwater](https://github.com/aleszu/oilandwater)**.
+
 ### Table of contents
 
 1. Data viz for environmental reporting 
