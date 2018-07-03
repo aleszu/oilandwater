@@ -13,7 +13,9 @@ output:
 
 This workshop serves as an introduction to finding, cleaning and mapping data using tools like **Google Sheets, Datawrapper** and **Carto.com**. 
 
-Slides and full tutorial are at [github.com/aleszu/oilandwater](github.com/aleszu/oilandwater).
+Slides are at **[bit.ly/ECSJdataviz](http://bit.ly/ECSJdataviz)**.
+
+Full tutorial at **[github.com/aleszu/oilandwater](https://github.com/aleszu/oilandwater)**.
 
 ## Table of contents
 
